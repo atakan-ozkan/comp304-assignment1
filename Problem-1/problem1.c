@@ -7,8 +7,16 @@
 void part1();
 void part2();
 
+int main(){
+    //printf("---PROBLEM_1.1---\n");
+    //part1();
+    //printf("\n---PROBLEM_1.2---\n");
+    //part2();
+    return 0;
+}
+
+
 void part1(){
-    
     struct timeval curr_time;
     time_t tt;
     struct tm *info;
@@ -54,14 +62,5 @@ void part2(){
             kill(pid, SIGKILL);
             exit(0);
         }
-
     }
-
-}
-int main(){
-    //printf("---PROBLEM_1.1---\n");
-    //part1();
-    //printf("\n---PROBLEM_1.2---\n");
-    //part2();
-    return 0;
 }
